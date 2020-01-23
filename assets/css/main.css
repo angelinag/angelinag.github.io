@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-.wrapper {
+body{
   background-color: #202C39;
+}
+
+.wrapper {
   width: 100%;
   min-height: 100vh;
   height: 100%;
@@ -25,6 +28,13 @@
   background-color: #f2f2f2;
   left: 50%;
   margin-top: 90px;
+}
+
+
+.header{
+  font: bold 52px/62px Pacifico, sans-serif;
+  margin: 60px;
+  color: #828A95;
 }
 
 .title {
