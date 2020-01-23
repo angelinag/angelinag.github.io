@@ -5,11 +5,18 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	</head>
 	<body>
+    <div class="modal">
+    <div class="modal__content">
+      <div class="modal__list-item">Welcome to the online interactive CV of Angelina Gasharova.</div>
+      <div class="modal__list-item">Here you can find a timeline of my IT-related activities and experience.<br> In case you wish to see some of my private projects, please contact me on <a href="mailto:andji.gash@gmail.com">andji.gash@gmail.com</a>.</div>
+      <div class="modal__list-item"><a onclick="document.body.classList.remove('modal-active');">Proceed to CV</a></div>
+    </div>
+  </div>  
 		<div class="wrapper">
       <section class="block"> 
         <div class="each-year">
           <div class="title">Most recent</div>
-          <div class="header">Timeline <br/> of my IT <br/> experience</div>
+          <div class="header">Timeline <br/> of my IT <br/> experience.</div>
         </div>
       </section>
 
@@ -64,6 +71,9 @@
         </div>
       </section>
     </div>
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
     <script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
 </html>
