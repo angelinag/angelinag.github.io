@@ -1,0 +1,64 @@
+html, html * {
+	display:block;
+	font-family:Monospace;
+	margin:1.5em 0;
+	padding:0;
+	color:#485c37;
+	text-decoration:none;
+        user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+a,code,em,strong {display:inline}
+style, blockquote {
+  white-space: pre-wrap;
+}
+html::before {content:'<html>'}
+html::after {content:'</html>'}
+head::before {content:'<head>'}
+head::after {content:'</head>'}
+title::before {content:'<title>'}
+title::after {content:'</title>'}
+body::before {content:'<body>'}
+body::after {content:'</body>'}
+h1::before {content:'<h1>'}
+h1::after {content:'</h1>'}
+h2::before {content:'<h2>'}
+h2::after {content:'</h2>'}
+p::before {content:'<p>'}
+p::after {content:'</p>'}
+pre::before {content:'<pre>'}
+pre::after {content:'</pre>'}
+code::before {content:'<code>'}
+code::after {content:'</code>'}
+a::before {content:'<a>'}
+a::after {content:'</a>'}
+aside::before {content:'<aside>'}
+aside::after {content:'</aside>'}
+blockquote::before {content:'<blockquote>'}
+blockquote::after {content:'</blockquote>'}
+em::before {content:'<em>'}
+em::after {content:'</em>'}
+strong::before {content:'<strong>'}
+strong::after {content:'</strong>'}
+link::before {content:'<link>'}
+link::after {content:'</link>'}
+a[href]::before {content: "<a href='" attr(href) "'>"}
+
+style::before {content:'<style>'}
+style::after {content:'<\/style>'}
+
+*::before,*::after {
+  color:#acc993;
+  font-weight:100;
+  font-size:1.0em
+}
+
+html {
+  max-width:70ch;
+  padding:2ch;
+  margin:auto;
+  font-size:1.2em;
+}
