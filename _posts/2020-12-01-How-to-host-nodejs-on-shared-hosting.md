@@ -16,7 +16,7 @@ Node only x64 after v10
 Ensure nvm and node work
 run commmand in root dir
 
-wget -qO- https://cdn.rawgit.com/creationix/nvm/master/install.sh | bash
+`wget -qO- https://cdn.rawgit.com/creationix/nvm/master/install.sh | bash`
 
 3. Config .htaccess
 if it doesnt exist, create it
